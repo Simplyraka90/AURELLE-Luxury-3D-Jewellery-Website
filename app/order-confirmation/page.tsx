@@ -1,0 +1,1 @@
+import Link from "next/link";import {Confirmation} from "../../components/Commerce";export const metadata={title:'Order confirmation'};export default function Page(){return <section className="section page"><span className="eyebrow">AURELLE / FINE JEWELLERY</span><h1>Order confirmation</h1><Confirmation/></section>}

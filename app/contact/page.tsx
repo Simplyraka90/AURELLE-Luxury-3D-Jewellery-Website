@@ -1,0 +1,1 @@
+import Link from "next/link";import {InquiryForm} from "../../components/Commerce";export const metadata={title:'Let’s create something beautiful'};export default function Page(){return <section className="section page"><span className="eyebrow">AURELLE / FINE JEWELLERY</span><h1>Let’s create something beautiful</h1><InquiryForm/></section>}

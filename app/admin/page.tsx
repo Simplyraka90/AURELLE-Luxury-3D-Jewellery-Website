@@ -1,0 +1,1 @@
+import Link from "next/link";import {Admin} from "../../components/Commerce";export const metadata={title:'AURELLE / Demo administration'};export default function Page(){return <section className="section page"><span className="eyebrow">AURELLE / FINE JEWELLERY</span><h1>AURELLE / Demo administration</h1><Admin/></section>}

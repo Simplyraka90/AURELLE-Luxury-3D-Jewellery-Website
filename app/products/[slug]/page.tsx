@@ -1,0 +1,1 @@
+import {Detail} from "../../../components/Commerce";export default async function Page({params}:{params:Promise<{slug:string}>}){return <section className="section page"><Detail id={(await params).slug}/></section>}

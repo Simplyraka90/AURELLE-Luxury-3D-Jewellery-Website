@@ -1,0 +1,1 @@
+import Link from "next/link";import {Checkout} from "../../components/Commerce";export const metadata={title:'Demo checkout'};export default function Page(){return <section className="section page"><span className="eyebrow">AURELLE / FINE JEWELLERY</span><h1>Demo checkout</h1><Checkout/></section>}

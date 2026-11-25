@@ -1,0 +1,1 @@
+import Link from "next/link";import {InquiryForm} from "../../components/Commerce";export const metadata={title:'A personal consultation'};export default function Page(){return <section className="section page"><span className="eyebrow">AURELLE / FINE JEWELLERY</span><h1>A personal consultation</h1><InquiryForm/></section>}

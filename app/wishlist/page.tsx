@@ -1,0 +1,1 @@
+import Link from "next/link";import {Catalog} from "../../components/Commerce";export const metadata={title:'Your treasured pieces'};export default function Page(){return <section className="section page"><span className="eyebrow">AURELLE / FINE JEWELLERY</span><h1>Your treasured pieces</h1><Catalog wishlist/></section>}

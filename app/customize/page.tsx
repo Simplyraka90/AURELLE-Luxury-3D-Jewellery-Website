@@ -1,0 +1,1 @@
+import Link from "next/link";import {Configurator} from "../../components/Experience";export const metadata={title:'Design your own piece'};export default function Page(){return <section className="section page"><span className="eyebrow">AURELLE / FINE JEWELLERY</span><h1>Design your own piece</h1><Configurator/></section>}

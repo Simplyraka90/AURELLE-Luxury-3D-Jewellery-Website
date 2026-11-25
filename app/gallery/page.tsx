@@ -1,0 +1,1 @@
+import Gallery from "../../components/Gallery";export const metadata={title:"Gallery"};export default function Page(){return <section className="section page"><span className="eyebrow">THE EDITORIAL</span><h1>In the light.</h1><Gallery/></section>}

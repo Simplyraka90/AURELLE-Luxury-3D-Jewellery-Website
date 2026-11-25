@@ -1,0 +1,1 @@
+import {Catalog} from "../../../components/Commerce";export const metadata={title:"Rings"};export default function Page(){return <section className="section page"><span className="eyebrow">THE COLLECTION</span><h1>Rings</h1><Catalog category="rings"/></section>}
